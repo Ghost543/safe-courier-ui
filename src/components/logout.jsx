@@ -8,9 +8,7 @@ class Logout extends Component {
     }
     
     render() { 
-        return (
-            <div>Loged out</div>
-        )
+        return null
     }
 }
  
