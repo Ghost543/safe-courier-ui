@@ -1,5 +1,5 @@
 import http from '../services/httpServices'
-const baseUrl = "https://safe-courier.herokuapp.com/api/v2" || "http://localhost:3100/api/v2"
+const baseUrl = "https://safe-courier.herokuapp.com"
 export function getOrders() {
     return http.get(baseUrl+'/parcels/all')
 }
