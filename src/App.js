@@ -1,5 +1,5 @@
 import { Route,Redirect,Switch  } from 'react-router-dom';
-import { Fragment } from 'react/cjs/react.production.min';
+import { Fragment } from 'react';
 import {ToastContainer} from 'react-toastify'
 import jwtDecode from 'jwt-decode'
 import React, { Component } from 'react'

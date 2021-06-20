@@ -35,8 +35,6 @@ class AdminUser extends Component {
          
          
     }
-     
-     currentUser = JSON.parse(localStorage.getItem("user"))
     render() { 
         return ( 
             <div className="row">                    

@@ -17,8 +17,6 @@ class LoginForm extends Form {
         email:Joi.string().required().email().label("Email"),
         password: Joi.string().required().min(8).label("Password")
     }
-
-    
     doSubmit = async () => {
         try {
             const {data: jwt} = await login(this.state.data)
@@ -39,9 +37,7 @@ class LoginForm extends Form {
             }
         }
         
-    }
-    
-    
+    } 
     render() { 
         return ( 
             <div>

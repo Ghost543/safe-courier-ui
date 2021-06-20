@@ -19,9 +19,7 @@ class SignupForm extends Form {
         email:Joi.string().required().email().label("Email"),
         telephone: Joi.string().required().label("Telephone Number"),
         password: Joi.string().required().min(8).label("Password")
-    }
-
-    
+    }  
     doSubmit = async () => {
         try {
             const response = await signup(this.state.data)
